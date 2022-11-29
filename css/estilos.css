@@ -4,21 +4,21 @@
 
 :root {
   font-family: sans-serif;
+ background-image: url(../img/fondo.jpg);
 }
 
 body {
   max-width: 640px;
   margin: 0 auto;
   padding: 0.5rem;
-  background-color: #9BE486; 
-  background-image: url(../img/fondo.jpg);
-  text-align: center;
 }
 
 header {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
+  background-color:
+    var(--color-header);
 }
 
 .herramientas {
@@ -30,9 +30,6 @@ header {
   margin-top: 0.5rem;
   padding-bottom: 0.5rem;
   gap: 0.5rem;
-  display: flex;
-	flex: 1;
-	max-width: 960px;
 }
 
 header input {
