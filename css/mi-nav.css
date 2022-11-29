@@ -1,5 +1,11 @@
 mi-nav {
- display:flex;
+  display: block;
+  background-color:
+    var(--colorMiNav);
+}
+
+mi-nav ul {
+  display:flex;
 	justify-content: center;
 	width: 96%;
 	height: 50px;
@@ -8,16 +14,6 @@ mi-nav {
 	border-top: 1px solid #094660;
 	border-bottom: 1px solid #094660;
 	text-align: center;
-}
-
-mi-nav ul {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: wrap;
-  list-style: none;
-  padding: 0;
-  margin: 0;
 }
 
 mi-nav ul li {
