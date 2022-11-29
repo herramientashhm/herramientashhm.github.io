@@ -19,9 +19,6 @@ header {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  display: flex;
-flex: 1;
-max-width: 960px;
 }
 
 .herramientas {
@@ -33,6 +30,9 @@ max-width: 960px;
   margin-top: 0.5rem;
   padding-bottom: 0.5rem;
   gap: 0.5rem;
+  display: flex;
+	flex: 1;
+	max-width: 960px;
 }
 
 header input {
