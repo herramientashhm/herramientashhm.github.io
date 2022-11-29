@@ -4,15 +4,14 @@
 
 :root {
   font-family: sans-serif;
-  --col-active: #4646462c;
-  --color-header: white;
-  --colorMiNav: white;
 }
 
 body {
   max-width: 640px;
   margin: 0 auto;
   padding: 0.5rem;
+  background-image: url(../img/fondo.jpg);
+	text-align: center;
 }
 
 header {
