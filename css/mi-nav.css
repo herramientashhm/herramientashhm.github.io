@@ -1,7 +1,13 @@
 mi-nav {
-  display: block;
-  background-color:
-    var(--colorMiNav);
+ display:flex;
+	justify-content: center;
+	width: 96%;
+	height: 50px;
+	padding: 0% 2%;
+	background-color: #c2f0ef;
+	border-top: 1px solid #094660;
+	border-bottom: 1px solid #094660;
+	text-align: center;
 }
 
 mi-nav ul {
